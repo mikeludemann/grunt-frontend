@@ -1,0 +1,53 @@
+{
+  "name": "grunt-frontend",
+  "version": "1.0.0",
+  "description": "Grunt for Frontend Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/grunt-frontend.git"
+  },
+  "keywords": [
+    "Grunt",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SASS",
+    "SCSS",
+    "Less",
+    "Stylus",
+    "Coffeescript",
+    "Hinter",
+    "Linter"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/grunt-frontend/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/grunt-frontend#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.7",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-coffee": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.1",
+    "grunt-html-minify": "^0.3.1",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
